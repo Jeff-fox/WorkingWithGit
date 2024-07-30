@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="904,526" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uma="clr-namespace:UiPath.MicrosoftOffice365.Activities;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umafe="clr-namespace:UiPath.MicrosoftOffice365.Activities.Files.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umm="clr-namespace:UiPath.MicrosoftOffice365.Models;assembly=UiPath.MicrosoftOffice365" xmlns:uoic="clr-namespace:UiPath.OpenAI.IntegrationService.Client;assembly=UiPath.OpenAI.IntegrationService" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="904,675" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uma="clr-namespace:UiPath.MicrosoftOffice365.Activities;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umafe="clr-namespace:UiPath.MicrosoftOffice365.Activities.Files.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umm="clr-namespace:UiPath.MicrosoftOffice365.Models;assembly=UiPath.MicrosoftOffice365" xmlns:uoic="clr-namespace:UiPath.OpenAI.IntegrationService.Client;assembly=UiPath.OpenAI.IntegrationService" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -126,7 +126,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="610,461" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence sap:VirtualizedContainerService.HintSize="610,610" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -153,7 +153,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uma:Office365ApplicationScope ApplicationId="{x:Null}" ApplicationSecret="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemFullPath="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserRuntimeItemFriendlyName="{x:Null}" BrowserRuntimeItemFullPath="{x:Null}" BrowserRuntimeItemId="{x:Null}" BrowserRuntimeParentItemId="{x:Null}" CertificateAsBase64="{x:Null}" CertificatePassword="{x:Null}" ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Connector="{x:Null}" ContinueOnError="{x:Null}" ImpersonatedUserEmailAddress="{x:Null}" ManualRuntimeItemFullPath="{x:Null}" Password="{x:Null}" SecureApplicationSecret="{x:Null}" SecurePassword="{x:Null}" TenantId="{x:Null}" Timeout="{x:Null}" Username="{x:Null}" Account="omar.a@xocialive.com" sap2010:Annotation.AnnotationText="Has a trigger https://cloud.uipath.com/xociazocdaqn/DefaultTenant/connections_/triggers/8723bfa2-604e-ef11-991a-000d3ab9d19d/details?fid=5651011&#xD;&#xA;" AuthenticationType="InteractiveToken" ConfigLocation="PropertiesPanel" DisplayName="Microsoft 365 Scope" EmailAddress="omar.a@xocialive.com" Environment="Global" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="Office365ApplicationScope_1" OAuthApplication="UiPath" RuntimeItemInputMode="Browse" UseConnectionService="False">
+            <uma:Office365ApplicationScope ApplicationId="{x:Null}" ApplicationSecret="{x:Null}" BrowserItemFriendlyName="{x:Null}" BrowserItemFullPath="{x:Null}" BrowserItemId="{x:Null}" BrowserParentItemId="{x:Null}" BrowserRuntimeItemFriendlyName="{x:Null}" BrowserRuntimeItemFullPath="{x:Null}" BrowserRuntimeItemId="{x:Null}" BrowserRuntimeParentItemId="{x:Null}" CertificateAsBase64="{x:Null}" CertificatePassword="{x:Null}" ConnectionAccountName="{x:Null}" ConnectionId="{x:Null}" Connector="{x:Null}" ContinueOnError="{x:Null}" ImpersonatedUserEmailAddress="{x:Null}" ManualRuntimeItemFullPath="{x:Null}" Password="{x:Null}" SecureApplicationSecret="{x:Null}" SecurePassword="{x:Null}" TenantId="{x:Null}" Timeout="{x:Null}" Username="{x:Null}" Account="omar.a@xocialive.com" sap2010:Annotation.AnnotationText="Has a trigger https://cloud.uipath.com/xociazocdaqn/DefaultTenant/connections_/triggers/8723bfa2-604e-ef11-991a-000d3ab9d19d/details?fid=5651011&#xA;" AuthenticationType="InteractiveToken" ConfigLocation="PropertiesPanel" DisplayName="Microsoft 365 Scope" EmailAddress="omar.a@xocialive.com" Environment="Global" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="Office365ApplicationScope_1" OAuthApplication="UiPath" RuntimeItemInputMode="Browse" UseConnectionService="False">
               <uma:Office365ApplicationScope.AuthenticationScopes>
                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
               </uma:Office365ApplicationScope.AuthenticationScopes>
@@ -195,12 +195,13 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
-    <Sequence DisplayName="Practice" sap:VirtualizedContainerService.HintSize="450,103" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="Practice" sap:VirtualizedContainerService.HintSize="548,275" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,164" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Hello World&quot;]" />
     </Sequence>
   </Sequence>
 </Activity>
